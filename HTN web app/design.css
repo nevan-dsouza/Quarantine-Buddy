@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*------Navigation Bar--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 100px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #5e6b7a!important;
+}
+.navbar{
+    background: rgb(0, 0, 0);
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/*----------Slider------*/
+
+
+
+#slider{
+    width: 100%;
+}
+/*
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+*/
+.carousel-caption h5{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+}
+.carousel-caption h3{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+/*----------------------OUR PRODUCT---------------*/
+#our-product{
+    background-image: linear-gradient(rgba(146, 146, 146, 0), rgba(116, 106, 106, 0)), url(Images/sectionbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#our-product h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#our-product h1::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 110px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 60px;
+}
+.Banner-btn{
+    margin: 70px auto 0;
+}
+.Banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: -25 2px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+}
+.Banner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: color 0.5s;
+}
+.Banner-btn a:hover span{
+    width: 100%;
+}
+.Banner-btn a:hover{
+    color: rgb(87, 87, 87);
+}
+
+
+/*--------------------GAME----------------*/
+
+
+#Game{
+    background-image: linear-gradient(rgba(146, 146, 146, 0), rgba(116, 106, 106, 0)), url(Images/park.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Game h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Game h4{
+    text-align: center;
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Game h1::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.gamebanner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+.gamebanner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 60px;
+}
+.GameBanner-btn{
+    margin: 70px auto 0;
+}
+.GameBanner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: -25 2px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+}
+.GameBanner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: color 0.5s;
+}
+.GameBanner-btn a:hover span{
+    width: 100%;
+}
+.GameBanner-btn a:hover{
+    color: rgb(87, 87, 87);
+}
+
+/*----------------MOVIES-------------------*/
+
+#Movies{
+    background-image: linear-gradient(rgba(146, 146, 146, 0), rgba(116, 106, 106, 0)), url(Images/moviebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Movies h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Movies h4{
+    text-align: center;
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Movies h1::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.moviebanner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+.moviebanner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 60px;
+}
+.MovieBanner-btn{
+    margin: 70px auto 0;
+}
+.MovieBanner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: -25 2px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+}
+.MovieBanner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: color 0.5s;
+}
+.MovieBanner-btn a:hover span{
+    width: 100%;
+}
+.MovieBanner-btn a:hover{
+    color: rgb(87, 87, 87);
+}
+
+
+/*----------------GAMES-------------------*/
+
+#Games{
+    background-image: linear-gradient(rgba(146, 146, 146, 0), rgba(116, 106, 106, 0)), url(Images/gamesbanner.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Games h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Games h4{
+    text-align: center;
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Games h1::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.gamesbanner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+.gamesbanner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 60px;
+}
+.GamesBanner-btn{
+    margin: 70px auto 0;
+}
+.GamesBanner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: -25 2px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+}
+.GamesBanner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: color 0.5s;
+}
+.GamesBanner-btn a:hover span{
+    width: 100%;
+}
+.GamesBanner-btn a:hover{
+    color: rgb(87, 87, 87);
+}
+
+/*----------------MUSIC-------------------*/
+
+#Music{
+    background-image: linear-gradient(rgba(146, 146, 146, 0), rgba(116, 106, 106, 0)), url(Images/spotifybanner.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Music h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Music h4{
+    text-align: center;
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Music h1::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.musicbanner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+.musicbanner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 60px;
+}
+.MusicBanner-btn{
+    margin: 70px auto 0;
+}
+.MusicBanner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: -25 2px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+}
+.MusicBanner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: color 0.5s;
+}
+.MusicBanner-btn a:hover span{
+    width: 100%;
+}
+.MusicBanner-btn a:hover{
+    color: rgb(87, 87, 87);
+}
