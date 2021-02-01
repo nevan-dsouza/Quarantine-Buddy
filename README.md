@@ -1,5 +1,5 @@
 # Quarantine-Buddy
-Personalize it to keep you busy with the things you love doing
+Personalize it to keep you busy with the things you love doing during your quarantine :)
 
 References:
 
